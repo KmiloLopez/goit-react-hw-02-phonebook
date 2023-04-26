@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { nanoid } from "nanoid";
 
+
 export class ContactForm extends Component {
     continue = (e) => {
         e.preventDefault();

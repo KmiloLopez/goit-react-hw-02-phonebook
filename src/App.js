@@ -4,6 +4,7 @@ import ContactForm from "./Components/ContactForm";
 import Filter from "./Components/Filter";
 import ContactList from "./Components/ContactList";
 import Container from "./Components/Styled/Container.styled";
+import PropTypes from 'prop-types';
 
 class Form extends Component {
     constructor(props) {
@@ -103,5 +104,12 @@ class Form extends Component {
             </Container>
         );
     }
+}
+ContactForm.propTypes ={
+
+    
+    name:PropTypes.string,
+    number:PropTypes.string
+
 }
 export default Form;
